@@ -83,8 +83,8 @@ function HousesList() {
         })
       ) : (
         <>
-          <div className="min-w-[530px] min-h-[300px]"></div>
           {loading && <Spinner />}
+          <div className="min-w-[530px] min-h-[300px]"></div>
         </>
       )}
     </div>
